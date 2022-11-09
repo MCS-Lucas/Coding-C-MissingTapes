@@ -22,11 +22,13 @@ int main() {
      printf("||--------------------------------------------------------------|| \n");
      printf("       Bem Vindo ! Selecione uma opcao segundo a legenda : \n");
      printf("||--------------------------------------------------------------|| \n");
-     printf(" | Cadastrar Usuário :   1 | \n");
-     printf(" | Cadastrar Produtor:   2 | \n");
-     printf(" | Editar Perfil :       3 | \n");
-     printf(" | Pesquisar Usuário :   4 | \n");
-     printf(" | Sair :                0 | \n\n");
+     printf(" | Cadastrar Usuário :               1 | \n");
+     printf(" | Cadastrar Produtor:               2 | \n");
+     printf(" | Editar Perfil :                   3 | \n");
+     printf(" | Editar Perfil de Produtor :       4 | \n");
+     printf(" | Pesquisar Usuário :               5 | \n");
+     printf(" | Pesquisar Produtor :              6 | \n");
+     printf(" | Sair :                            0 | \n\n");
      printf(" Opção : ");
      scanf("%d", &op);
      
