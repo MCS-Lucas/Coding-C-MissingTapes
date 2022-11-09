@@ -15,7 +15,7 @@ void cadastrousuarios(struct site *pt) {
    printf("||------------------- Cadastro de Usuários ---------------------|| \n");
    printf("||--------------------------------------------------------------|| \n\n");  
    
-   	while ((x=='S') || (x=='S')) {
+   	while ((x=='s') || (x=='S')) {
    		
    		printf("Insira seu nome de Usuário: ");
    		fflush(stdin);
@@ -86,7 +86,7 @@ void cadastroprodutor(struct site *pt) {
    printf("||------------------- Cadastro de Produtores ---------------------|| \n");
    printf("||----------------------------------------------------------------|| \n\n");  
    
-   	while ((x=='S') || (x=='S')) {
+   	while ((x=='s') || (x=='S')) {
    		
    		printf("Insira seu nome de Usuário: ");
    		fflush(stdin);
@@ -288,7 +288,7 @@ void pesquisarusuarios(struct site pt[]) {
            printf("Telefone : %s ",pt[i].telefone);
            printf("Email  : %s ",pt[i].email);
            printf("\n"); 
-           //k=0;
+           
            break;       
        }     
     }
